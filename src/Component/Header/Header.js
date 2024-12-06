@@ -56,7 +56,7 @@ function Header() {
                 className={`nav-link ${active === "/about" ? "active" : ""}`}
                 to="/about"
               >
-                About
+                Features
               </NavLink>
             </li>
             <li className="nav-item">
@@ -70,9 +70,9 @@ function Header() {
             <li className="nav-item">
               <NavLink
                 className={`nav-link ${active === "/blog" ? "active" : ""}`}
-                to="/blog"
+                to="/FAQ"
               >
-                Blog
+                FAQ
               </NavLink>
             </li>
             <li className="nav-item">
